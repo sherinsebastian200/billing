@@ -27,6 +27,13 @@ public class Main {
             Scanner input = new Scanner(System.in);
             int n = input.nextInt();
             switch (n) {
+                case 1:
+                    System.out.println("Enter the count of tea");
+                    int tea = input.nextInt();
+                    c.tea = tea;
+                    break;
+
+
 
 
             }
